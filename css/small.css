@@ -1,0 +1,153 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+font-size: 1rem; }
+/* 
+----------------navbar-------------------------> */
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+
+h1, p{
+    margin: 0 2vw;
+    text-align: center;
+}
+nav{
+    
+    place-items: center;
+    background-color: lime;
+}
+
+nav button{
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+ nav{
+    background-color: #eee;
+
+} 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    width: 100px;
+    float: left;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.logo img{
+
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+
+    margin-left: 10px;
+}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    display: none;
+}
+nav ul.open {
+    display: block;
+}
+#hBtn span:nth-child(1){display: block;}
+#hBtn span:nth-child(2){display: none;}
+
+#hBtn.open span:nth-child(1){display: none;}
+#hBtn.open span:nth-child(2){display: block;} */ */
+/* 
+----------------------------------Home -------------------------*/
+.items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+
+
+}
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transform: 0.2s ease;
+
+}
+.item img:hover{
+    transform: scale(1.04);
+
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+    padding:  5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.item button:hover {
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+-----------footer---------> */
+
+
+
+/* footer{
+    display: flex;
+
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+footer ul{
+    list-style-type: none;
+
+} */

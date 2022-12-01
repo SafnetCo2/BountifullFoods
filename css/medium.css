@@ -1,0 +1,50 @@
+@media only screen and (min-width: 35rem){
+    nav button {
+        display: none;
+        
+
+    }
+    h1, h2{
+        font-size: 1.2rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    nav ul #navbtn {
+        display: flex;
+    
+
+        margin-left: 2vw;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    
+    }
+    /* 
+----------------section home-------------------------> */
+.items {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+
+
+
+
+    /* footer */
+    footer{
+        flex-direction: column;
+    }
+
+   
+}
+    
+    /* nav ul {
+        display: none;
+    }
+    nav ul.open {
+        display: block;
+    }
+  */
